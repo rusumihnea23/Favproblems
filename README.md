@@ -1,11 +1,12 @@
 # Favproblems
 The task solved had the following requirements:
+
+
   course_grading_part_1 -Please write a program which asks the user for the names of these two files, reads the files, and then prints out the total number of exercises completed by each student.
   
   histogram -Please write a function named histogram, which takes a string as its argument. The function should print out a histogram representing the number of times each letter occurs in the string. Each occurrence of a letter should be represented by a star on the specific line for that letter.
   
   matrix -The file matrix.txt contains a matrix in the format specified in the example below:
-
 1,0,2,8,2,1,3,2,5,2,2,2
 9,2,4,5,2,4,2,4,1,10,4,2
 ...etc...
@@ -21,3 +22,8 @@ Each recipe consists of three or more lines. The first line has the name of the 
   student_databse -First write a function named add_student, which adds a new student to the database. Also write a preliminary version of the function print_student, which prints out the information of a single student. Please write a function named add_course, which adds a completed course to the information of a specific student in the database. The course data is a tuple consisting of the name of the course and the grade.Courses with grade 0 should be ignored when adding course information. Additionally, if the course is already in the database in that specific student's information, the grade recorded in the database should never be lowered if the course is repeated.Please write a function named summary, which prints out a summary based on all the information stored in the database.
   
   phone_book_v2 -Please write an improved version of the phone book application. Each entry should now accommodate multiple phone numbers. The application should work otherwise exactly as above, but this time all numbers attached to a name should be printed.
+
+  password_generator_part_2-Please write an improved version of your password generator. The function now takes three arguments:
+If the second argument is True, the generated password should also contain one or more numbers.
+If the third argument is True, the generated password should also contain one or more of these special characters: !?=+-()#.
+Despite these two additional arguments, the password should always contain at least one lowercase alphabet. You may assume the function will only be called with combinations of arguments that are possible to formulate into passwords following these rules. That is, the arguments will not specify e.g. a password of length 2 which contains both a number and a special characters, for then there would not be space for the mandatory lowercase letter.
